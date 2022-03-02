@@ -1,0 +1,34 @@
+= Java & Spring Project
+Ikhoon Chon <darkchoco@cloudscape.kr>
+:toc:
+
+Content entered directly below the header but before the first section heading is called the preamble.
+
+== json
+Based on https://springframework.guru/processing-json-jackson/[Processing JSON with Jackson].
+
+== 유용한 정보
+Display the project dependencies.
+----
+$ mvn dependency:tree
+
++- org.springframework.boot:spring-boot-starter-web:jar:2.1.2.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE:compile
+[INFO] |  |  |  +- ch.qos.logback:logback-classic:jar:1.2.3:compile
+[INFO] |  |  |  |  \- ch.qos.logback:logback-core:jar:1.2.3:compile
+...
+----
+'''
+
+== 참고 (알파벳 순)
+
+=== JSON
+* https://mkyong.com/java/java-convert-object-to-map-example/[Java - Convert Object to Map example]
+
+=== Logging
+* https://mkyong.com/spring-boot/spring-boot-slf4j-logging-example/[Spring Boot SLF4j Logback example]
+
+=== Lombok
+* https://projectlombok.org/features/all[Lombok features]
+* https://beomseok95.tistory.com/242[Lombok 알아보기]

@@ -1,0 +1,20 @@
+{
+  "id": 123,
+  "name": "",
+  "age": 49,
+  "salary": 10000,
+  "designation": "Project Manager",
+  "address": {
+    "street": "Park Avn.",
+    "city": "Westchester",
+    "zipcode": 10583
+  },
+  "phoneNumbers": [
+    654321,
+    222333
+  ],
+  "personalInformation": {
+    "gender": "Male",
+    "maritialstatus": "Married"
+  }
+}
