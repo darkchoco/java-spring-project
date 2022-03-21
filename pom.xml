@@ -15,5 +15,6 @@
 
     <modules>
         <module>json</module>
+        <module>rest-api</module>
     </modules>
 </project>
