@@ -8,13 +8,9 @@
     <name>Java and Spring Project</name>
     <description>Java and Spring Project</description>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
-
     <modules>
         <module>json</module>
         <module>rest-api</module>
+        <module>aws/s3</module>
     </modules>
 </project>
