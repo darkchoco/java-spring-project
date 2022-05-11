@@ -1,0 +1,17 @@
+{
+  "id" : 124,
+  "name" : "Alice Celci",
+  "age" : 24,
+  "salary" : 1800,
+  "designation" : "UI Designer",
+  "address" : {
+    "street" : "Lake Park Road",
+    "city" : "Phoenix",
+    "zipcode" : 85003
+  },
+  "phoneNumbers" : [ 246802 ],
+  "personalInformation" : {
+    "gender" : "Female",
+    "maritialstatus" : "Unmarried"
+  }
+}

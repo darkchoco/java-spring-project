@@ -2,12 +2,11 @@
 Ikhoon Chon <darkchoco@cloudscape.kr>
 :toc:
 
-Content entered directly below the header but before the first section heading is called the preamble.
+== 일반
+* Module 생성은 Maven을 사용했다.
 
-== json
-Based on https://springframework.guru/processing-json-jackson/[Processing JSON with Jackson].
 
-== 유용한 정보
+== 노트
 Display the project dependencies.
 ----
 $ mvn dependency:tree
@@ -20,15 +19,3 @@ $ mvn dependency:tree
 ...
 ----
 '''
-
-== 참고 (알파벳 순)
-
-=== JSON
-* https://mkyong.com/java/java-convert-object-to-map-example/[Java - Convert Object to Map example]
-
-=== Logging
-* https://mkyong.com/spring-boot/spring-boot-slf4j-logging-example/[Spring Boot SLF4j Logback example]
-
-=== Lombok
-* https://projectlombok.org/features/all[Lombok features]
-* https://beomseok95.tistory.com/242[Lombok 알아보기]

@@ -1,12 +1,16 @@
 package darkchoco.javaspring.controller;
 
 import darkchoco.javaspring.model.Todo;
+import darkchoco.javaspring.model.TodoResource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;
+
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @RestController
 @RequestMapping(value = "/basic")
@@ -39,5 +43,12 @@ public class BasicController {
                        3, new Todo(3L, "Check the itinerary"));
 
         return todoMap.get(todoId);
+    }
+
+    @GetMapping(value = "/todoh")
+    public ResponseEntity<TodoResource> geth(@RequestParam(value = "todoTitle") String todoTitle) {
+        TodoResource todoResource = new TodoResource(todoTitle);
+        todoResource.add(linkTo(methodOn(BasicController.class).geth(todoTitle)).withSelfRel());
+        return new ResponseEntity<>(todoResource, HttpStatus.OK);
     }
 }
