@@ -9,6 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <!-- 아래 4줄 수정 -->
+    <groupId>io.github.darkchoco.java-spring</groupId>
     <artifactId>template</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>template</name>

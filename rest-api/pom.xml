@@ -8,6 +8,7 @@
         <version>2.6.8</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <groupId>io.github.darkchoco.java-spring</groupId>
     <artifactId>rest-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>REST API</name>

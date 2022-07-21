@@ -31,3 +31,4 @@ target/
 # etc.
 tmp/
 README.template.adoc
+_src/
